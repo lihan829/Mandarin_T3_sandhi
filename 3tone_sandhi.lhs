@@ -4,7 +4,7 @@
 >
 > This code is based on our homework exercise ``gdfst" but I changed some part in it.
 > The project aims to take a string of underlying Mandarin tone and present the surface form after the third tone process.
-> The Third tone sandhi process is: /3+3/ -> [23]
+> The Third tone sandhi process is: /3+3/ |-> [23]
 > -}
 
 
@@ -44,7 +44,7 @@ For this case, the transducer first reverse the string and then process and fina
 
 
 The next step is to define a transducer that changes 33 tone into 23.
-In this transducer, the alphabet would be four tones 1,2,3,4. Some papers uses H,L,R,F but there's no big differece. 
+In this transducer, the alphabet is four tones in Chinese Mandarin 1,2,3,4. Some papers uses H,L,R,F but there's no big differece. 
 
 > alphabet :: [Char]
 > alphabet = "1234"
