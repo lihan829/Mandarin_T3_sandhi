@@ -1,6 +1,7 @@
-> {-|
-> Compling2 Project: A String Transducer of Mandarin Third Tone sandhi process
-> Li Han May 20
+> Compling2 Project: A String Transducer of Mandarin Third Tone Sandhi
+>
+> Li Han
+> May 20 2022
 >
 > This code is based on our homework exercise ``gdfst" but I changed some part in it.
 > The project aims to take a string of underlying Mandarin tone and present the surface form after the third tone process.
